@@ -1,0 +1,26 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+.vscode/
+.idea/
+*.pyc
+
+# Arquivos de bytecode Python
+*.pyc
+__pycache__/
+# Arquivos gerados pelo ambiente virtual Python
+venv*/
+env*/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+*.cache
+
+# Outros arquivos específicos do projeto que você deseja ignorar
+arquivo_secreto.txt
+diretorio_secreto/
